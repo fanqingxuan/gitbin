@@ -1,0 +1,22 @@
+#!/bin/bash
+
+argnum=$#
+
+if [ $argnum = 0 ];
+then
+	git merge
+elif [ $argnum = 1 ];
+then 
+	git merge $1
+elif [ $argnum = 2 ];
+then 
+	git merge $1 "$2"
+elif [ $argnum = 3 ];
+then 
+	git merge $1 $2 "$3"
+elif [ $argnum = 4 ];
+then 
+	git merge $1 $2 $3 "$4"
+else
+	git merge $*
+fi
