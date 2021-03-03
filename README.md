@@ -40,6 +40,7 @@ push #推送到远端
 - ll命令容易跟linux的ls别名命令ll冲突，所以用gll命令作为git ll命令
 - greset命令等价于git reset
 - diff命令是linux的命令，为防止冲突用gdiff命令作为git diff的快捷命令
+- linux环境需要将bin目录下文件权限改成755
 
 ### 安装方式
 
