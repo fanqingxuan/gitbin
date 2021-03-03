@@ -33,6 +33,7 @@
 add -u # 修改的内容提交到暂存区
 branch -D test # 删除test分支
 commit -m "this is commit" #将暂存区代码提交到仓库
+pull develop # 拉取develop分支
 push #推送到远端
 ```
 
@@ -45,9 +46,6 @@ push #推送到远端
 ### 安装方式
 
 - 第一步:clone仓库代码到本地
-```bash
-https://github.com/fanqingxuan/gitbin.git
-```
 - 第二步:将仓库的bin目录设置到path环境变量
 
 - 第三步:如果是windows用户，需要关闭dos终端，重新打开终端
