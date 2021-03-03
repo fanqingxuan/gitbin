@@ -2,7 +2,7 @@
 
 ### 背景&目标
 
-熟悉git命令的小伙伴对于git add、git pull、git push、git commit、git checkout命令应该不陌生了，大家有没有发现每一个命令我必须输入git + 命令，好麻烦啊，此项目正式为了解决这个问题，git add 改成add,git pull 改成 pull,push代替了git push。**完全告别前面的git三个单词**，可选参数完全兼容git的原有参数
+熟悉git命令的小伙伴对于git add、git pull、git push、git commit、git checkout命令应该不陌生了，大家有没有发现每一个命令我必须输入git + 命令，好麻烦啊，此项目正式为了解决这个问题，git add 改成add,git pull 改成 pull,push代替了git push。**完全告别前面的git三个字母**，可选参数完全兼容git的原有参数
 
 
 ### 支持命令
